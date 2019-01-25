@@ -39,6 +39,13 @@ namespace RoadRanger_LLC
 
         }
 
+/*******************************************************************************
+* Name : Button_Save_Click
+* Function : print the currently selected Due Date and Store Number
+* Variables : comboBox1.Text | The currently selected text
+* DueDateCldr.SelectiionStart | The currently selected due date for the store
+********************************************************************************/
+
         private void Btn_Save_Click(object sender, EventArgs e)
         {
 
@@ -67,6 +74,11 @@ namespace RoadRanger_LLC
             }
         }
 
+/*******************************************************************************
+* Name : Button1_Click
+* Function : print the currently selected Due Date and Store Number
+* Variables : Inventory | Used to create a new form to show individual products contained in shipments.
+*******************************************************************************/
         private void button1_Click_1(object sender, EventArgs e)
         {
             RoadRangerInventoryForm inventory = new RoadRangerInventoryForm();
